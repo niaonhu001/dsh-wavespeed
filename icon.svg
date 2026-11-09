@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="WaveSpeed">
+  <defs>
+    <linearGradient id="ws-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2f52"/>
+      <stop offset="1" stop-color="#1f7ad1"/>
+    </linearGradient>
+    <linearGradient id="ws-wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bfe6ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#ws-bg)"/>
+  <path d="M9 40c5.6-8 10.4-8 16 0s10.4 8 16 0 10.4-8 14-4" fill="none" stroke="url(#ws-wave)" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M9 29c5.6-8 10.4-8 16 0s10.4 8 16 0 10.4-8 14-4" fill="none" stroke="#9fd4ff" stroke-width="2.4" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="47.5" cy="16.5" r="3.2" fill="#ffd8a8"/>
+</svg>

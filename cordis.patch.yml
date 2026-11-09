@@ -1,0 +1,9 @@
+# dsh-wavespeed bundle patch：按包名挂载，依赖从 profile 的 node_modules 解析。
+# apiKeyEnv 指向 DSH 凭据里的条目名；密钥值不写在这里。
+- insert:
+    - id: wavespeed
+      name: 'dsh-wavespeed'
+      config:
+        apiKeyEnv: WAVESPEED_API_KEY
+        waitMs: 300000
+        pollIntervalMs: 2000

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "WaveSpeed 生图生视频",
+    "description": "接入 WaveSpeedAI 的上千个模型：查模型目录与参数表、提交生图/生视频任务、轮询结果，图片直接进对话、视频存到本地。"
+  }
+}
